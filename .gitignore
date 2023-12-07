@@ -1,0 +1,57 @@
+# Byte-compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+*.sqlite3
+*.db
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+# Virtual environment
+venv/
+env/
+
+# Development and production settings
+*.env
+*.env.*
+
+# Ignore logs and other potentially generated files
+*.log
+
+# Ignore local settings
+local_settings.py
+
+# Ignore sensitive information
+*.secret
+
+# Ignore user-specific IDE files
+.idea/
+.vscode/
+
+# Ignore migration files, as they are auto-generated
+/migrations/
+
+# Ignore compiled Python bytecode
+__pycache__/
+
+# Ignore coverage reports
+.coverage
+
+# Ignore Django test database
+db.sqlite3
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
